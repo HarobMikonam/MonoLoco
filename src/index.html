@@ -1,0 +1,296 @@
+---
+title: 'MONO LOCO'
+description: 'Mono Loco | Fastest Growing Cyprus Events!'
+preloadImg: '/assets/images/landing.jpg'
+permalink: '/'
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/local.css" />
+    <link rel="stylesheet" href="/assets/css/critical.css" />
+
+    <!-- Script for Netlify Identity -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer>
+        if (window.netlifyIdentity) {
+            window
+                .netlifyIdentity
+                .on('init', (user) => {
+                    if (!user) {
+                        window
+                            .netlifyIdentity
+                            .on('login', () => {
+                                document.location.href = '/admin/';
+                            });
+                    }
+                });
+        }
+    </script>
+{% endblock %}
+
+{% block body %}
+
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+    <section id="hero">
+        <div class="cs-container">
+            <div class="cs-flex-group">
+                <span class="cs-topper">Experience Cyprus Nightlife Like Never Before!</span>
+                <h1 class="cs-title">Unleash the Party Animal in You! Mono Loco - Where Memories Are Made!</h1>
+                <a href="/contact" class="cs-button-solid">Get Tickets</a>
+                <a href="/about" class="cs-button-transparent">
+                    <img
+                    class="cs-img"
+                    loading="lazy"
+                    decoding="async"
+                    src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
+                    alt="play icon"
+                    width="17"
+                    height="17" />
+                    About Us
+                </a>
+            </div>
+        </div>
+
+        <!-- Background Image -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/assets/images/landing.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/landing.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/landing.jpg" alt="mono loco" width="2500" height="1667" loading="eager">
+        </picture>
+    </section>
+<!-- ============================================ -->
+<!--                   Video                      -->
+<!-- ============================================ -->
+
+<section id="video-548">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">A TASTE OF THE EXPERIENCE</span>
+            <h2 class="cs-title">Witness the Mono Loco Experience</h2>
+            <p class="cs-text">
+                Step into the world of Mono Loco, where music comes to life and the night pulses with energy, inviting you to dance your heart out in the most vibrant clubs on the island. 
+            </p>
+        </div>
+        <a href="" class="cs-big-link">
+            <!--Background Image-->
+            <picture class="cs-background">
+                <source media="(min-width: 1024px)" srcset="assets\images\MONO LOCO-POST-5.jpg">
+                <source media="(min-width: 601px)" srcset="assets\images\MONO LOCO-POST-5.jpg">
+                <source media="(max-width: 600px)" srcset="assets\images\MONO LOCO-POST-5.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="assets\images\MONO LOCO-POST-5.jpg" alt="dj" width="1280" height="580">
+            </picture>
+            <!--Play Icon-->
+            <img class="cs-link-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Stats/play-yellow.svg" alt="play icon" width="110" height="110">
+        </a>
+    </div>
+</section>
+                                
+                                
+
+    <!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbsr-950">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Long Left Image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="assets\images\DSC_0356.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="assets\images\DSC_0356.jpg">
+                <img loading="lazy" decoding="async" src="assets\images\DSC_0356.jpg" alt="event" width="349" height="590">
+            </picture>
+            <!--Top right image-->
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="assets\images\DSC_0401.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="assets\images\DSC_0401.jpg">
+                <img loading="lazy" decoding="async" src="assets\images\DSC_0401.jpg" alt="event" width="281" height="387">
+            </picture>
+            <!--Bottom right image-->
+            <picture class="cs-picture cs-picture3">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="assets\images\DSC_0471.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="assets\images\DSC_0471.jpg">
+                <img loading="lazy" decoding="async" src="assets\images\DSC_0471.jpg" alt="event" width="281" height="280">
+            </picture>
+            <!--Seal-->
+            <img class="cs-seal" loading="lazy" decoding="async" src="assets\images\circle logo.png" alt="logo" width="150" height="150">
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Whats Mono Loco?!</span>
+            <h2 class="cs-title">Mono Loco: The Pinnacle of Clubbing Excellence</h2>
+            <p class="cs-text">
+                At Mono Loco, we are the pulse of Cyprus nightlife, where the night's energy surges and the beats never stop. We don't just throw parties; we craft unforgettable club experiences that keep the island dancing till dawn.
+            </p>
+            <div class="cs-text">
+            <div class="malasintenciones"> #malasintenciones </div> 
+        </div>
+            <div class="cs-contact-group">
+                <a class="cs-link" href="mailto:Info@monoloco.com">
+                    <picture class="cs-wrapper">
+                        <img class="cs-icon" loading="lazy" decoding="async" src="assets\images\mail-svgrepo-com (1).svg" alt="icon" width="24" height="24">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-header">Send An Email</span>
+                        <span class="cs-link-content">Info@monoloco.com</span>
+                    </div>
+                </a>
+                <a class="cs-link" href="">
+                    <picture class="cs-wrapper">
+                        <img class="cs-icon" loading="lazy" decoding="async" src="assets\images\phone-svgrepo-com.svg" alt="icon" width="24" height="24">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-header">Call Us At</span>
+                        <span class="cs-link-content">+357 99 99999</span>
+                    </div>
+                </a>
+            </div>
+            <a href="" class="cs-button-solid" aria-label="learn more about us">Learn More</a>
+        </div>
+    </div>
+    <!--Zen Leaf Group-->
+    <img class="cs-floater" loading="lazy" decoding="async" src="assets\images\drinksshadows.png" alt="drinks" width="445" height="310">
+</section>
+                                
+<!-- ============================================ -->
+<!--                Meet The Team                 -->
+<!-- ============================================ -->
+
+<section id="meet-us-304">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Meet The DJ's</span>
+            <h2 class="cs-title">Elevating the Beat with World-Class DJs</h2>
+            <p class="cs-text">
+                At mono loco, we groove to the tunes if world classs dj setting the stage for an unforgettable night #noches_sucias
+            </p>
+            </p>
+            <a href="" class="cs-button-solid">More About Us</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-info">
+                    <span class="cs-name">DJ KONG</span>
+                    <span class="cs-job"></span>
+                </div>
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <source media="(max-width: 767px)" srcset="assets\images\portfolio\ApplicationFrameHost_rlsr3ixa4c.png">
+                    <source media="(min-width: 768px)" srcset="assets\images\portfolio\ApplicationFrameHost_rlsr3ixa4c.png">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="assets\images\portfolio\ApplicationFrameHost_rlsr3ixa4c.png" alt="DJ gallery" width="305" height="407">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <div class="cs-info">
+                    <span class="cs-name">DJ MARCH</span>
+                    <span class="cs-job"></span>
+                </div>
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <source media="(max-width: 767px)" srcset="assets\images\45949591_1850814251654647_6994208085818204235_n.jpg">
+                    <source media="(min-width: 768px)" srcset="assets\images\45949591_1850814251654647_6994208085818204235_n.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="assets\images\45949591_1850814251654647_6994208085818204235_n.jpg" alt="DJ gallery" width="305" height="407">
+                </picture>
+            </li>
+        </ul>
+    </div>
+</section>
+              
+<!-- ============================================ -->
+<!--                  Gallery                     -->
+<!-- ============================================ -->
+
+<section id="gallery-1234">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Our Gallery</span>
+            <h2 class="cs-title">Let’s See Our Latest Event</h2>
+            <p class="cs-text">
+                Explore the Snapshot of the Night: Where the Party Comes to Life!
+            </p>
+        </div>
+        <div class="cs-gallery">
+            <div class="cs-flex">
+                <picture class="cs-picture cs-picture1">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="assets\images\DSC_0401.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="assets\images\DSC_0401.jpg">
+                    <img loading="lazy" decoding="async" src="assets\images\DSC_0401.jpg" alt="gallery showcase" width="360" height="420">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="assets\images\DSC_0437.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="assets\images\DSC_0437.jpg">
+                    <img loading="lazy" decoding="async" src="assets\images\DSC_0437.jpg" alt="gallery showcase" width="360" height="240">
+                </picture>
+            </div>
+            <picture class="cs-picture cs-row">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="assets\images\download (2).jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="assets\images\download (2).jpg">
+                <img loading="lazy" decoding="async" src="assets\images\download (2).jpg" alt="gallery showcase" width="360" height="520">
+            </picture>
+            <div class="cs-flex">
+                <picture class="cs-picture cs-picture1">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="assets\images\DSC_0304.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="assets\images\DSC_0304.jpg">
+                    <img loading="lazy" decoding="async" src="assets\images\DSC_0304.jpg" alt="gallery showcase" width="360" height="420">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="assets\images\DSC_0317.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="assets\images\DSC_0317.jpg">
+                    <img loading="lazy" decoding="async" src="assets\images\DSC_0317.jpg" alt="gallery showcase" width="360" height="240">
+                </picture>
+            </div>
+            <picture class="cs-picture cs-row">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="assets\images\DSC_0327.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="assets\images\DSC_0327.jpg">
+                <img loading="lazy" decoding="async" src="assets\images\DSC_0327.jpg" alt="gallery showcase" width="360" height="520">
+            </picture>
+            <div class="cs-flex">
+                <picture class="cs-picture cs-picture1">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="assets\images\DSC_0462.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="assets\images\DSC_0462.jpg">
+                    <img loading="lazy" decoding="async" src="assets\images\DSC_0462.jpg" alt="gallery showcase" width="360" height="420">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="assets\images\DSC_0324.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="assets\images\DSC_0324.jpg">
+                    <img loading="lazy" decoding="async" src="assets\images\DSC_0324.jpg" alt="gallery showcase" width="360" height="240">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
+                                
+                                
+
+
+    {% include 'components/cta.html' %}
+{% endblock %}

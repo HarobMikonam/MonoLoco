@@ -1,0 +1,89 @@
+---
+title: 'About'
+description: 'Meta description for the page'
+preloadImg: ''
+permalink: 'about/'
+eleventyNavigation:
+    key: About Us
+    order: 200
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/about.css">
+
+{% endblock %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">About Us</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="../../assets\images\download (3).jpg">
+            <source media="(min-width: 601px)" srcset="../../assets\images\download (3).jpg">
+            <img aria-hidden="true" decoding="async" src="../../assets\images\download (3).jpg" alt="disco ball" loading="eager" width="2500" height="1667">
+        </picture>
+
+    </section>
+
+
+    <!-- ============================================ -->
+<!--                   Logos                      -->
+<!-- ============================================ -->
+
+<section id="logos-857">
+    <div class="cs-container">
+        <div class="cs-logo-group">
+            <!--Ideally you want to use svg's for the file path image, which is why these aren't wrapped in picture elements for different screen sizes-->
+            <img class="cs-logo" src="../../assets\images\portfolio\MONO LOCO-LOGO VARIATIONS-.jpg" alt="logo" width="150" height="65" loading="lazy" decoding="async">
+            <img class="cs-logo" src="../../assets\images\MONO LOCO-LOGO VARIATIONS-3.jpg" alt="logo" width="150" height="55" loading="lazy" decoding="async">
+            <img class="cs-logo" src="../../assets\images\portfolio\MONO LOCO-LOGO VARIATIONS-.jpg" alt="logo" width="150" height="53" loading="lazy" decoding="async">
+            <img class="cs-logo" src="../../assets\images\MONO LOCO-LOGO VARIATIONS-3.jpg" alt="logo" width="150" height="65" loading="lazy" decoding="async">
+            <img class="cs-logo" src="../../assets\images\portfolio\MONO LOCO-LOGO VARIATIONS-.jpg" alt="logo" width="150" height="55" loading="lazy" decoding="async">
+            <img class="cs-logo" src="../../assets\images\MONO LOCO-LOGO VARIATIONS-3.jpg" alt="logo" width="150" height="53" loading="lazy" decoding="async">
+            <img class="cs-logo" src="../../assets\images\portfolio\MONO LOCO-LOGO VARIATIONS-.jpg" alt="logo" width="150" height="65" loading="lazy" decoding="async">
+            <img class="cs-logo" src="../../assets\images\MONO LOCO-LOGO VARIATIONS-3.jpg" alt="logo" width="150" height="55" loading="lazy" decoding="async">
+        </div>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-1025">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="../../assets\images\landing.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="../../assets\images\landing.jpg">
+                <img loading="lazy" decoding="async" src="../../assets\images\landing.jpg" alt="landing image" width="1280" height="568">
+            </picture>
+            <img class="cs-icon" loading="lazy" decoding="async" src="../../assets\images\circle logo.png" alt="logo" width="120" height="120">
+        </div>
+        <div class="cs-content">
+            <div class="cs-flex-group">
+                <span class="cs-topper">Unimaginable Fun</span>
+                <h2 class="cs-title">ABOUT US : ¡¿QUIEN SON LOS MONOS LOCO?!</h2>
+                <a href="" class="cs-button-solid">Reserve Your Table</a>
+            </div>
+            <p class="cs-text">
+                LOS MONOS LOCO ARE THE ISLANDS CRAZIEST MONKEYS WHO WANT TO OFFER PARTY ENTHUSIAST  AND MUSIC LOVER THE FIESTA OF THEIR LIVES. We bring together the island's most celebrated dj, to create unforgettable moments and experiences.                
+                <br>
+                <br>
+                Join us on the dancefloor and let loose the party animal within you. We try to bring our behaviour, just try to keep up 
+                #malas_intenciones
+        </div>
+    </div>
+</section>
+                                
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}

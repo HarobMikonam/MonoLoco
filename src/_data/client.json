@@ -1,0 +1,15 @@
+{
+	"name": "",
+	"email": "info@monolococy.com",
+	"phoneForTel": "+357 99 999999",
+	"phoneFormatted": "+357 99 999999",
+	"address": {
+		"lineOne": "First Address Line",
+		"lineTwo": "Second Address Line",
+		"city": "Cyprus",
+		"state": "Limassol",
+		"zip": "",
+		"mapLink": ""
+	},
+	"domain": "www.monolococy.com"
+}
