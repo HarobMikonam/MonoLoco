@@ -9,6 +9,7 @@ The goal of this project is to deliver a smooth and fast user experience while k
 ## Demo
 
 A demo of the website can be viewed here: https://www.youtube.com/watch?v=lgikJECOn6o
+Live Version: https://spectacular-halva-0aedee.netlify.app/
 
 ## Company
 
